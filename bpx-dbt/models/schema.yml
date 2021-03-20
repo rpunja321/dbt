@@ -1,0 +1,10 @@
+
+    version: 2
+
+sources:
+  - name: historian
+    schema: staging
+    database: bpx
+
+    tables:
+      - name: STG_TAGCATALOG_UPSTREAM
